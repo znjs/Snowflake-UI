@@ -1,1 +1,1 @@
-# Switch to dev branch to see the project
+# Running Notes for Snowflake
