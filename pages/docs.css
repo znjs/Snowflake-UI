@@ -1,0 +1,90 @@
+@import url("/css/reset.css");
+@import url("/css/nav.css");
+
+body {
+    background-color: #7db9e8;
+}
+
+nav {
+    background: linear-gradient(#1e5799 0%, #7db9e8 100%);
+}
+
+/* ?SIDE NAV */
+
+.component-doc {
+    margin: 1rem 4rem 0 4rem;
+    min-width: 80%;
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.component-doc .side-nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: calc(100vh - 6rem);
+    padding-top: 1rem;
+    overflow: auto;
+    justify-self: center;
+    padding-right: 1rem;
+}
+
+.component-doc>.side-nav>h2 {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+hr {
+    margin: 0.5rem 0;
+    color: grey;
+}
+
+.component-doc>.side-nav>ul>li {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.component-doc>.side-nav>ul>li>a>i {
+    font-size: large;
+    margin-right: 0.75rem;
+}
+
+::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+::-webkit-scrollbar-track {
+    background: lightgrey;
+    border-radius: 1rem;
+    margin-block: 0.5rem;
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: hsl(0, 0%, 50%, 0.8);
+    border: 0.15rem solid lightgrey;
+    cursor: pointer;
+    border-radius: 1rem;
+
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: grey;
+}
+
+/* ?MAIN CONTENT */
+.component-contents {
+    /* height: calc(100vh - 6rem);
+    overflow: auto; */
+}
+
+.component-doc>.component-contents>h2 {
+    margin-block: 1.5rem;
+}
+
+.component-doc>.component-contents>.code-snippet {
+    margin-block: 1rem;
+}
