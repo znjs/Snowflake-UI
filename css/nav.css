@@ -1,0 +1,40 @@
+.snowflake-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.snowflake-nav .logo-container {
+    height: 5rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* background-color: blueviolet; */
+}
+
+nav>div>img {
+    height: 3rem;
+}
+
+.snowflake-nav .nav-links ul {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.snowflake-nav .nav-links ul li {
+    margin: 0 2rem;
+}
+
+.snowflake-nav .nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.snowflake-nav .nav-links ul li i {
+
+    font-size: 2rem;
+}
