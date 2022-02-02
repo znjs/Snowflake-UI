@@ -1,7 +1,10 @@
+@import url("/pages/components/utility/fonts.css");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
 }
 
 img,
@@ -13,4 +16,9 @@ iframe {
     object-fit: contain;
     /* can use `cover` instead of `contain` */
     object-position: top center;
+}
+
+ol,
+ul {
+    list-style: none;
 }
