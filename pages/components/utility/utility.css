@@ -2118,3 +2118,73 @@
 .bx-shwd-gry {
     box-shadow: 0 0 1rem grey;
 }
+
+/* ?POSITION */
+
+.p-rel {
+    position: relative;
+}
+
+.p-abs {
+    position: absolute;
+}
+
+.p-fix {
+    position: fixed;
+}
+
+.p-stick {
+    position: sticky;
+}
+
+.p-static {
+    position: static
+}
+
+.top {
+    top: 0rem;
+}
+
+.btm {
+    bottom: 0rem;
+}
+
+.lft {
+    left: 0rem;
+}
+
+.rgt {
+    right: 0rem;
+}
+
+.top-rgt {
+    top: 0rem;
+    right: 0rem;
+}
+
+.top-lft {
+    top: 0rem;
+    left: 0rem;
+}
+
+.btm-rgt {
+    bottom: 0rem;
+    right: 0rem;
+}
+
+.btm-lft {
+    bottom: 0rem;
+    left: 0rem;
+}
+
+.top-btm-lft {
+    top: 0rem;
+    bottom: 0rem;
+    left: 0rem;
+}
+
+.top-btm-rgt {
+    top: 0rem;
+    bottom: 0rem;
+    right: 0rem;
+}
