@@ -1900,3 +1900,127 @@
 .w-fit {
     width: fit-content;
 }
+
+/* ?FONTS */
+
+.f-05 {
+    font-size: 0.5rem;
+}
+
+.f-075 {
+    font-size: 0.75rem;
+}
+
+.f-085 {
+    font-size: 0.85rem;
+}
+
+.f-1 {
+    font-size: 1rem;
+}
+
+.f-1025 {
+    font-size: 1.25rem;
+}
+
+.f-105 {
+    font-size: 1.5rem;
+}
+
+.f-1075 {
+    font-size: 1.75rem;
+}
+
+.f-2 {
+    font-size: 2rem;
+}
+
+/* ?LINE HEIGHT */
+
+.lh-1 {
+    line-height: 1rem;
+}
+
+.lh-1025 {
+    line-height: 1.25rem;
+}
+
+.lh-105 {
+    line-height: 1.5rem;
+}
+
+.lh-1075 {
+    line-height: 1.75rem;
+}
+
+.lh-2 {
+    line-height: 2rem;
+}
+
+.lh-2025 {
+    line-height: 2.25rem;
+}
+
+.lh-205 {
+    line-height: 2.5rem;
+}
+
+.lh-3 {
+    line-height: 3rem;
+}
+
+.lh-3025 {
+    line-height: 3.25rem;
+}
+
+/* ?FONTWEIGHT */
+
+.fw-100 {
+    font-weight: 100;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.fw-bold {
+    font-weight: bold;
+}
+
+/* ?FONTSTYLE */
+
+.fs-italic {
+    font-style: italic;
+}
+
+.fs-normal {
+    font-style: normal;
+}
