@@ -2102,3 +2102,19 @@
 .fx-wrap-rev {
     flex-wrap: wrap-reverse;
 }
+
+/* ?BORDER */
+
+.brd-round {
+    border-radius: 50%;
+}
+
+/* ?BOXSHADOW */
+
+.bx-shwd-blk {
+    box-shadow: 0 0 1rem black;
+}
+
+.bx-shwd-gry {
+    box-shadow: 0 0 1rem grey;
+}
