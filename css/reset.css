@@ -27,3 +27,16 @@ a {
     color: black;
     text-decoration: none;
 }
+
+button {
+    cursor: pointer;
+}
+
+.img-res {
+    width: 100%;
+    height: auto;
+}
+
+.o-hide {
+    overflow: hidden;
+}
