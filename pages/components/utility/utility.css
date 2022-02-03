@@ -2024,3 +2024,81 @@
 .fs-normal {
     font-style: normal;
 }
+
+/* ?FLEXPROPERTIES */
+
+.fx {
+    display: flex;
+}
+
+.fx-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.fx-row-rev {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.fx-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.fx-col-rev {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.fx-ai-center {
+    align-items: center;
+}
+
+.fx-ji-center {
+    justify-items: center;
+}
+
+.fx-ji-center {
+    justify-items: center;
+}
+
+.fx-jc-center {
+    justify-content: center;
+}
+
+.fx-ac-center {
+    align-content: center;
+}
+
+.fx-jc-sa {
+    justify-content: space-around;
+}
+
+.fx-jc-sb {
+    justify-content: space-between;
+}
+
+.fx-jc-se {
+    justify-content: space-evenly;
+}
+
+.fx-ac-sa {
+    align-content: space-around;
+}
+
+.fx-ac-sb {
+    align-content: space-between;
+}
+
+.fx-ac-se {
+    align-content: space-evenly;
+}
+
+.fx-wrap {
+    flex-wrap: wrap;
+}
+
+.fx-wrap-rev {
+    flex-wrap: wrap-reverse;
+}
