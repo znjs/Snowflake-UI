@@ -332,3 +332,407 @@
 .clr-sky-900 {
     color: #0c4a6e;
 }
+
+/* *SPACING */
+
+/* ?PADDING */
+
+.pd-0125{
+    padding: 0.125rem;
+}
+
+.pd-b-0125{
+    padding-block: 0.125rem;
+}
+
+.pd-i-0125{
+    padding-inline: 0.125rem;
+}
+
+.pd-025{
+    padding: 0.25rem;
+}
+
+.pd-b-025{
+    padding-block: 0.25rem;
+}
+
+.pd-i-025{
+    padding-inline: 0.25rem;
+}
+
+.pd-0375{
+    padding: 0.375rem;
+}
+
+.pd-b-0375{
+    padding-block: 0.375rem;
+}
+
+.pd-i-0375{
+    padding-inline: 0.375rem;
+}
+
+.pd-05{
+    padding: 0.5rem;
+}
+
+.pd-b-05{
+    padding-block: 0.5rem;
+}
+
+.pd-i-05{
+    padding-inline: 0.5rem;
+}
+
+.pd-0625{
+    padding: 0.625rem;
+}
+
+.pd-b-0625{
+    padding-block: 0.625rem;
+}
+
+.pd-i-0625{
+    padding-inline: 0.625rem;
+}
+
+.pd-075{
+    padding: 0.75rem;
+}
+
+.pd-b-075{
+    padding-block: 0.75rem;
+}
+
+.pd-i-075{
+    padding-inline: 0.75rem;
+}
+
+.pd-0875{
+    padding: 0.875rem;
+}
+
+.pd-b-0875{
+    padding-block: 0.875rem;
+}
+
+.pd-i-0875{
+    padding-inline: 0.875rem;
+}
+
+.pd-1{
+    padding: 1rem;
+}
+
+.pd-b-1{
+    padding-block: 1rem;
+}
+
+.pd-i-1{
+    padding-inline: 1rem;
+}
+
+.pd-1025{
+    padding: 1.25rem;
+}
+
+.pd-1025{
+    padding: 1.25rem;
+}
+
+.pd-b-1025{
+    padding-block: 1.25rem;
+}
+
+.pd-i-1025{
+    padding-inline: 1.25rem;
+}
+
+.pd-105{
+    padding: 1.5rem;
+}
+
+.pd-b-105{
+    padding-block: 1.5rem;
+}
+
+.pd-i-105{
+    padding-inline: 1.5rem;
+}
+
+.pd-1075{
+    padding: 1.75rem;
+}
+
+.pd-b-1075{
+    padding-block: 1.75rem;
+}
+
+.pd-i-1075{
+    padding-inline: 1.75rem;
+}
+
+.pd-2{
+    padding: 2rem;
+}
+
+.pd-b-2{
+    padding-block: 2rem;
+}
+
+.pd-i-2{
+    padding-inline: 2rem;
+}
+
+.pd-2025{
+    padding: 2.25rem;
+}
+
+.pd-b-2025{
+    padding-block: 2.25rem;
+}
+
+.pd-i-2025{
+    padding-inline: 2.25rem;
+}
+
+.pd-205{
+    padding: 2.5rem;
+}
+
+.pd-b-205{
+    padding-block: 2.5rem;
+}
+
+.pd-i-205{
+    padding-inline: 2.5rem;
+}
+
+.pd-2075{
+    padding: 2.75rem;
+}
+
+.pd-b-2075{
+    padding-block: 2.75rem;
+}
+
+.pd-i-2075{
+    padding-inline: 2.75rem;
+}
+
+.pd-3{
+    padding: 3rem;
+}
+
+.pd-b-3{
+    padding-block: 3rem;
+}
+
+.pd-i-3{
+    padding-inline: 3rem;
+}
+
+.pd-305{
+    padding: 3.5rem;
+}
+
+.pd-b-305{
+    padding-block: 3.5rem;
+}
+
+.pd-i-305{
+    padding-inline: 3.5rem;
+}
+
+.pd-4{
+    padding: 4rem;
+}
+
+.pd-b-4{
+    padding-block: 4rem;
+}
+
+.pd-i-4{
+    padding-inline: 4rem;
+}
+
+.pd-5{
+    padding: 5rem;
+}
+
+.pd-b-5{
+    padding-block: 5rem;
+}
+
+.pd-i-5{
+    padding-inline: 5rem;
+}
+
+.pd-6{
+    padding: 6rem;
+}
+
+.pd-b-6{
+    padding-block: 6rem;
+}
+
+.pd-i-6{
+    padding-inline: 6rem;
+}
+
+.pd-7{
+    padding: 7rem;
+}
+
+.pd-b-7{
+    padding-block: 7rem;
+}
+
+.pd-i-7{
+    padding-inline: 7rem;
+}
+
+.pd-8{
+    padding: 8rem;
+}
+
+.pd-b-8{
+    padding-block: 8rem;
+}
+
+.pd-i-8{
+    padding-inline: 8rem;
+}
+
+.pd-9{
+    padding: 9rem;
+}
+
+.pd-b-9{
+    padding-block: 9rem;
+}
+
+.pd-i-9{
+    padding-inline: 9rem;
+}
+
+.pd-10{
+    padding: 10rem;
+}
+
+.pd-b-10{
+    padding-block: 10rem;
+}
+
+.pd-i-10{
+    padding-inline: 10rem;
+}
+
+.pd-11{
+    padding: 11rem;
+}
+
+.pd-b-11{
+    padding-block: 11rem;
+}
+
+.pd-i-11{
+    padding-inline: 11rem;
+}
+
+.pd-12{
+    padding: 12rem;
+}
+
+.pd-b-12{
+    padding-block: 12rem;
+}
+
+.pd-i-12{
+    padding-inline: 12rem;
+}
+
+.pd-13{
+    padding: 13rem;
+}
+
+.pd-b-13{
+    padding-block: 13rem;
+}
+
+.pd-i-13{
+    padding-inline: 13rem;
+}
+
+.pd-14{
+    padding: 14rem;
+}
+
+.pd-b-14{
+    padding-block: 14rem;
+}
+
+.pd-i-14{
+    padding-inline: 14rem;
+}
+
+.pd-15{
+    padding: 15rem;
+}
+
+.pd-b-15{
+    padding-block: 15rem;
+}
+
+.pd-i-15{
+    padding-inline: 15rem;
+}
+
+.pd-16{
+    padding: 16rem;
+}
+
+.pd-b-16{
+    padding-block: 16rem;
+}
+
+.pd-i-16{
+    padding-inline: 16rem;
+}
+
+.pd-18{
+    padding: 18rem;
+}
+
+.pd-b-18{
+    padding-block: 18rem;
+}
+
+.pd-i-18{
+    padding-inline: 18rem;
+}
+
+.pd-20{
+    padding: 20rem;
+}
+
+.pd-b-20{
+    padding-block: 20rem;
+}
+
+.pd-i-20{
+    padding-inline: 20rem;
+}
+
+.pd-24{
+    padding: 24rem;
+}
+
+.pd-b-24{
+    padding-block: 24rem;
+}
+
+.pd-i-24{
+    padding-inline: 24rem;
+}
