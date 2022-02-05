@@ -9,6 +9,25 @@ nav {
     background: linear-gradient(#1e5799 0%, #7db9e8 100%);
 }
 
+/* ?CODE PREVIEW CLASSES */
+
+.gist-meta {
+    display: none;
+}
+
+.blob-none,
+.js-line-number {
+    display: none;
+}
+
+.gist {
+    margin-block: 1rem;
+    margin-inline: auto;
+    max-height: 15rem;
+    overflow: auto;
+    font-size: 1rem;
+}
+
 /* ?SIDE NAV */
 
 .component-doc {
@@ -77,14 +96,14 @@ hr {
 
 /* ?MAIN CONTENT */
 .component-contents {
-    /* height: calc(100vh - 6rem);
-    overflow: auto; */
+    padding-block: 2rem;
+    overflow: auto;
 }
 
 .component-doc>.component-contents>h2 {
     margin-block: 1.5rem;
 }
 
-.component-doc>.component-contents>.code-snippet {
+/* .component-doc>.component-contents>.code-snippet {
     margin-block: 1rem;
-}
+} */

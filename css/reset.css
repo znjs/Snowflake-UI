@@ -4,7 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Inter', sans-serif; */
+    /* font-family: 'Merriweather Sans', sans-serif; */
+
+
 }
 
 img,
