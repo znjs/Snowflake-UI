@@ -1,4 +1,7 @@
 /* ?BORDER */
+.brd-sm {
+    border-radius: 0.5rem;
+}
 
 .brd-round {
     border-radius: 50%;
