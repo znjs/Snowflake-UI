@@ -8,6 +8,8 @@
     <script src="https://kit.fontawesome.com/0fde817728.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/pages/docs.css">
+    <link rel="stylesheet" href="/pages/components/utility/utility.css">
+    <link rel="stylesheet" href="/pages/components/badge/badge.css">
     <title>SnowflakeUI | Badge</title>
 </head>
 
@@ -60,9 +62,77 @@
                 <li><a href="/pages/components/toast/toast.html"><i class="fas fa-flag"></i>Toast</a></li>
             </ul>
         </div>
-        <div class="component-contents">
-            <h1 class="doc-title">&lt;TITLE-PLACE-HOLDER&gt;</h1>
-            <p class="doc-desc-primiray">&lt;TITLE DESCRIPTION&gt;</p>
+        <div class="badge-contents">
+            <h2 class="mg-b-075">Badge</h2>
+            <hr>
+            <p>Badge Component Symbol to draw attention to another interface element or to display a notification. It
+                enhances the component to which it is attached with additional information, disclosed to the user upon
+                interacting with it.</p>
+            <h3 class="mg-b-1">Image Badge</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-ai-center brd-sm">
+                    <div class="p-rel">
+                        <img src="/assets/images/profile2.jpg" alt="avatar" class="h-4 w-4 brd-round">
+                        <span class="p-abs brd-round badge rgt bg-clr-green-600"></span>
+                    </div>
+                    <div class="p-rel">
+                        <img src="/assets/images/profile2.jpg" alt="avatar" class="h-4 w-4 brd-round">
+                        <span class="p-abs brd-round badge rgt bg-clr-red-600"></span>
+                    </div>
+                    <div class="p-rel">
+                        <img src="/assets/images/profile2.jpg" alt="avatar" class="h-4 w-4 brd-round">
+                        <span class="p-abs brd-round badge rgt bg-clr-gray-400"></span>
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=imageBadge.html">
+            </script>
+            <h3 class="mg-b-1">Letter Badge</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-ai-center brd-sm">
+                    <div class="p-rel">
+                        <span class="brd-round bg-clr-blue-500 h-4 w-4 fx-row fx-jc-center fx-ai-center f-105">S</span>
+                        <span class="p-abs brd-round badge rgt bg-clr-green-600"></span>
+                    </div>
+                    <div class="p-rel">
+                        <span class="brd-round bg-clr-blue-500 h-4 w-4 fx-row fx-jc-center fx-ai-center f-105">S</span>
+                        <span class="p-abs brd-round badge rgt bg-clr-red-600"></span>
+                    </div>
+                    <div class="p-rel">
+                        <span class="brd-round bg-clr-blue-500 h-4 w-4 fx-row fx-jc-center fx-ai-center f-105">S</span>
+                        <span class="p-abs brd-round badge rgt bg-clr-gray-400"></span>
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=charBadge.html">
+            </script>
+
+            <h3 class="mg-b-1">Notification Badge</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-ai-center brd-sm">
+                    <div class="p-rel">
+                        <span class="brd-round bg-clr-yellow-500 h-3 w-3 fx-row fx-jc-center fx-ai-center f-105"><i
+                                class="fas fa-shopping-cart"></i></span>
+                        <span
+                            class="p-abs brd-round notification rgt top bg-clr-green-600 f-075 clr-gray-50 fx fx-jc-center fx-ai-center">2</span>
+                    </div>
+                    <div class="p-rel">
+                        <span class="brd-round bg-clr-yellow-500 h-3 w-3 fx-row fx-jc-center fx-ai-center f-105"><i
+                                class="fas fa-bell"></i></span>
+                        <span
+                            class="p-abs brd-round notification rgt top bg-clr-gray-100 f-075 fx fx-jc-center fx-ai-center">7</span>
+                    </div>
+                    <div class="p-rel">
+                        <span class="brd-round bg-clr-red-500 h-3 w-3 fx-row fx-jc-center fx-ai-center f-105"><i
+                                class="fas fa-flag"></i></span>
+                        <span
+                            class="p-abs brd-round notification rgt top bg-clr-red-800 clr-gray-50 f-075 fx fx-jc-center fx-ai-center">7</span>
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=notificationBadge.html">
+            </script>
+
         </div>
     </div>
 </body>
