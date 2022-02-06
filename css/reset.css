@@ -17,7 +17,6 @@ video,
 iframe {
     max-inline-size: 100%;
     block-size: auto;
-    aspect-ratio: 2/1;
     object-fit: contain;
     /* can use `cover` instead of `contain` */
     object-position: top center;
