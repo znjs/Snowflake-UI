@@ -31,11 +31,11 @@ nav {
 /* ?SIDE NAV */
 
 .component-doc {
-    margin: 1rem 4rem 0 4rem;
+    margin: 1rem 2rem 0 0;
     min-width: 80%;
     display: grid;
     grid-auto-flow: row;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr;
 }
 
 .component-doc .side-nav {
@@ -45,8 +45,9 @@ nav {
     bottom: 0;
     height: calc(100vh - 6rem);
     padding-top: 1rem;
+    padding-left: 3rem;
     overflow: auto;
-    justify-self: center;
+    justify-self: flex-start;
     padding-right: 1rem;
 }
 
