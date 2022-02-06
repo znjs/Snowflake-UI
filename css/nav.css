@@ -16,6 +16,10 @@
     /* background-color: blueviolet; */
 }
 
+.snowflake-nav>.logo-container>h2 {
+    padding-left: 1rem;
+}
+
 nav>div>img {
     height: 3rem;
 }
