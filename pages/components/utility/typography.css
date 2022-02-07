@@ -121,3 +121,7 @@
 .fs-normal {
     font-style: normal;
 }
+
+.tx-ul {
+    text-decoration: underline;
+}
