@@ -8,6 +8,8 @@
     <script src="https://kit.fontawesome.com/0fde817728.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/pages/docs.css">
+    <link rel="stylesheet" href="/pages/components/utility/utility.css">
+    <link rel="stylesheet" href="/pages/components/button/button.css">
     <title>SnowflakeUI | Button</title>
 </head>
 
@@ -60,9 +62,66 @@
                 <li><a href="/pages/components/toast/toast.html"><i class="fas fa-flag"></i>Toast</a></li>
             </ul>
         </div>
-        <div class="component-contents">
-            <h1 class="doc-title">&lt;TITLE-PLACE-HOLDER&gt;</h1>
-            <p class="doc-desc-primiray">&lt;TITLE DESCRIPTION&gt;</p>
+        <div class="button-contents">
+            <h2 class="mg-b-075">Button</h2>
+            <hr>
+            <p>
+                buttons are high-emphasis, distinguished by their use of elevation and fill. They contain actions that
+                are primary to your app
+            </p>
+            <h3 class="pd-b-1">Primary</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-ai-center brd-sm">
+                    <button class="bg-clr-blue-400 pd-05 brd-sm ">Primary</button>
+                    <button class="bg-clr-gray-600 clr-gray-50 brd-sm pd-05">Secondary</button>
+                    <button class="bg-clr-yellow-300  brd-sm pd-05">Add to cart</button>
+                    <button class="bg-clr-red-500  brd-sm pd-05">Wish list</button>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=buttonPrimary.html">
+            </script>
+            <h3 class="mg-b-1">Link Buttons</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-ai-center brd-sm">
+                    <a href="" class="pd-05 tx-ul">Link Primary</a>
+                    <a href="" class="pd-05 tx-ul">Download</a>
+                    <a href="" class="pd-05 tx-ul">See more</a>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=buttonLink.html">
+            </script>
+            <h3 class="mg-b-1">Icon Buttons</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-ai-center brd-sm">
+                    <button class="f-1 bg-clr-blue-400 pd-0375 brd-sm">
+                        <i class=" mg-i-025 far fa-envelope"></i>Email
+                    </button>
+                    <button class="f-1 bg-clr-gray-600 clr-gray-50 pd-0375 brd-sm">
+                        <i class=" mg-i-025 fas fas fa-download"></i>Download
+                    </button>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=buttonIcon.html">
+            </script>
+            <h3 class="mg-b-1">Floating action Buttons</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-ai-center brd-sm">
+                    <button class="brd-round bg-clr-blue-300 f-1075 h-4 w-4 clr-gray-500 bx-shwd-gry">
+                        <i class="far fa-save"></i>
+                    </button>
+                    <button class="brd-round bg-clr-blue-600 f-1075 h-4 w-4 clr-gray-50 bx-shwd-gry">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <button class="brd-round bg-clr-red-600 f-1075 h-4 w-4 clr-gray-50 bx-shwd-gry">
+                        <i class="fas fas fa-angle-right"></i>
+                    </button>
+                    <button class="brd-round bg-clr-blue-500 f-1075 h-4 w-4 clr-gray-50 bx-shwd-gry">
+                        <i class="fas fas fa-download"></i>
+                    </button>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=buttonFloat.html">
+            </script>
         </div>
     </div>
 </body>
