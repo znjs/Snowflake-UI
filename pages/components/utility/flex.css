@@ -79,3 +79,8 @@
 .d-i-block {
     display: inline-block;
 }
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
