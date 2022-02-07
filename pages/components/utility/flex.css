@@ -71,3 +71,11 @@
 .fx-wrap-rev {
     flex-wrap: wrap-reverse;
 }
+
+.d-block {
+    display: block;
+}
+
+.d-i-block {
+    display: inline-block;
+}
