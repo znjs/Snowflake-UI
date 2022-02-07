@@ -37,9 +37,16 @@ button {
     border: none;
 }
 
-.img-res {
+.img-res,
+.img-res-ht {
     width: 100%;
     height: auto;
+    object-fit: cover;
+}
+
+.img-res-wd {
+    width: auto;
+    height: 100%;
     object-fit: cover;
 }
 
