@@ -144,15 +144,28 @@
 
 
 
-.snowflake-hero>.hero-content>.snowflake-docs {
-    margin-top: 1rem;
-    padding: 0.25rem;
+.snowflake-hero>.hero-content>p>.snowflake-docs {
+    margin: 1rem;
+    padding: 1rem;
     /* font-size: 1.25rem; */
     border-radius: 2rem;
     text-decoration: none;
     background-color: black;
     color: white;
     cursor: pointer;
+}
+
+.snowflake-hero>.hero-content>button {
+    margin-block: 1rem;
+    font-size: larger;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    background-color: #538fda;
+    box-shadow: 0 0 1rem black;
+}
+
+.snowflake-hero>.hero-content>button>a {
+    color: white;
 }
 
 .snowflake-hero>.hero-img>img {
