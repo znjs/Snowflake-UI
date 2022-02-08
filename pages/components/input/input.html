@@ -8,6 +8,8 @@
     <script src="https://kit.fontawesome.com/0fde817728.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/pages/docs.css">
+    <link rel="stylesheet" href="/pages/components/input/input.css">
+    <link rel="stylesheet" href="/pages/components/utility/utility.css">
     <title>SnowflakeUI | Input</title>
 </head>
 
@@ -60,9 +62,98 @@
                 <li><a href="/pages/components/toast/toast.html"><i class="fas fa-flag"></i>Toast</a></li>
             </ul>
         </div>
-        <div class="component-contents">
-            <h1 class="doc-title">&lt;TITLE-PLACE-HOLDER&gt;</h1>
-            <p class="doc-desc-primiray">&lt;TITLE DESCRIPTION&gt;</p>
+        <div class="input-contents">
+            <h2 class="mg-b-075">Input Components</h2>
+            <hr>
+            <p>
+                Input fields are an essential user interface design element, providing users with the means to enter
+                non-standardized responses.
+            </p>
+            <h3 class="pd-b-1">Text input</h3>
+            <p>A foundational component for inputting text into the app via a keyboard.</p>
+            <h4 class="pd-b-05">Resizable text input</h4>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-ai-center brd-sm">
+                    <textarea name="Text area" cols="90" rows="5" placeholder="Enter your text here ..."
+                        class="pd-0625"></textarea>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=resizableText.html">
+            </script>
+            <h4 class="pd-b-05">Label Inputs</h4>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-col fx-ji-center fx-ai-center brd-sm">
+                    <div class="fx-col">
+                        <label for="Username" class="f-075 pd-b-05">Username: *</label>
+                        <input type="text" placeholder="JohnDoe">
+                    </div>
+                    <div class="fx-col">
+                        <label for="password" class="f-075 pd-b-05">Password: *</label>
+                        <input type="password">
+                        <div class="f-075 clr-red-600">Wrong password. Try again</div>
+                    </div>
+                    <div class="fx-col">
+                        <label for="email" class="f-075 pd-b-05">Email: *</label>
+                        <input type="email" placeholder="abc@xyz.com">
+                    </div>
+                    <div class="fx-col">
+                        <label for="email" class="f-075 pd-b-05">Email: *</label>
+                        <input type="email" disabled placeholder="Disabled">
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=labelInputs.html">
+            </script>
+            <h3 class="pd-b-05">Selective Inputs</h3>
+            <h4 class="pd-b-05">Radio and Checkbox Inputs</h4>
+            <p>Checkboxes and radio buttons are elements for making selections. Checkboxes allow the user to choose
+                items from a fixed number of alternatives, while radio buttons allow the user to choose exactly one item
+                from a list of several predefined alternatives.</p>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 grid-3 fx-ji-center fx-ac-center brd-sm">
+                    <div>
+                        <input type="radio" name="Radio-button-1" value="Unselected">
+                        <label for="Unselected">Unselected</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Radio-button-2" value="Selected" checked>
+                        <label for="Selected">Selected</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="Radio-button" value="Disabled" disabled>
+                        <label for="Disabled">Disabled</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Checkbox-button-1" value="Unselected">
+                        <label for="Unselected">Unselected</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Checkbox-button-2" value="Selected" checked>
+                        <label for="Selected">Selected</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="Checkbox-button" value="Disabled" disabled>
+                        <label for="Disabled">Disabled</label>
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=selectiveInputs.html">
+            </script>
+            <h4 class="pd-b-05">Slider Inputs</h4>
+            <p>
+                Slider elements are of type range, which allows the user specify a numeric value which must be no less
+                than a given value, and no more than another given value.
+            </p>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-col fx-ji-center fx-ai-center brd-sm">
+                    <div>
+                        <label for="volume"><i class="fas fa-volume-up"></i></label>
+                        <input type="range" id="volume" name="volume" min="0" max="100">
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=slider.html">
+            </script>
         </div>
     </div>
 </body>
