@@ -79,7 +79,7 @@ hr {
 ::-webkit-scrollbar-track {
     background: lightgrey;
     border-radius: 1rem;
-    margin-block: 0.5rem;
+    /* margin-block: 0.5rem; */
 }
 
 
