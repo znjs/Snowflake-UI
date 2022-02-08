@@ -16,3 +16,11 @@
 .bx-shwd-gry {
     box-shadow: 0 0 1rem grey;
 }
+
+.brd-hov:hover {
+    box-shadow: 0 0 1rem grey;
+}
+
+.cr-pt {
+    cursor: pointer;
+}

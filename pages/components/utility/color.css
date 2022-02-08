@@ -666,3 +666,9 @@
 .bg-clr-sky-900 {
     background-color: #0c4a6e;
 }
+
+/* TRANSLUCENT COLORS */
+
+.bg-trans {
+    background-color: #6b7280bf;
+}

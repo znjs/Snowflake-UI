@@ -125,3 +125,7 @@
 .tx-ul {
     text-decoration: underline;
 }
+
+.tx-lt {
+    text-decoration: line-through;
+}

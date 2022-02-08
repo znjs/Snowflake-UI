@@ -84,3 +84,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
+.item-center {
+    display: grid;
+    place-items: center;
+}
