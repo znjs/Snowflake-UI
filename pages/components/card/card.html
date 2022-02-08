@@ -8,6 +8,8 @@
     <script src="https://kit.fontawesome.com/0fde817728.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/pages/docs.css">
+    <link rel="stylesheet" href="/pages/components/utility/utility.css">
+    <link rel="stylesheet" href="/pages/components/card/card.css">
     <title>SnowflakeUI | Card</title>
 </head>
 
@@ -60,10 +62,168 @@
                 <li><a href="/pages/components/toast/toast.html"><i class="fas fa-flag"></i>Toast</a></li>
             </ul>
         </div>
-        <div class="component-contents">
-            <h1 class="doc-title">&lt;TITLE-PLACE-HOLDER&gt;</h1>
-            <p class="doc-desc-primiray">&lt;TITLE DESCRIPTION&gt;</p>
+        <div class="card-componenet-contents">
+            <h2 class="pd-b-075">Card Component</h2>
+            <hr>
+            <p>A card is container for a few short, related pieces of information. It roughly resembles a playing card
+                in size and shape, and is intended as a linked, short representation of a conceptual unit.
+            </p>
+            <h3 class="pd-b-1">Standard card</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-ai-center brd-sm fx-wrap">
+                    <div class="p-rel bg-clr-gray-50 w-15 brd-sm o-hide bg-clr-gray-50 brd-hov cr-pt">
+                        <img src="/assets/images/toy.jpg" class="img-res-w" alt="toy-image">
+                        <div class="pd-i-0625 ">
+                            <h3>Car white toy</h3>
+                            <h5>
+                                <span class="tx-lt clr-gray-500">₹450.85</span>
+                                <span class="pd-i-0625">₹300.50</span>
+                                <span class="clr-red-400">only</span>
+                            </h5>
+                            <p class="f-075">Christmas festive VW Beetle with blank negative copy space</p>
+                            <div class="pd-b-1 fx-row fx-jc-se fx-ai-center">
+                                <button class="bg-clr-yellow-300 pd-05 brd-sm"><i class="fas fa-shopping-cart"></i> Add
+                                    To Cart</button>
+                                <button class="bg-clr-gray-300 pd-05 brd-sm">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="p-abs bg-clr-gray-50 brd-round h-105 w-105 item-center top-rgt mg-05"><i
+                                class="far fa-heart clr-red-400 "></i>
+                        </div>
+                    </div>
+                    <div class="p-rel bg-clr-gray-50 p-rel w-15 brd-sm o-hide bg-clr-gray-50 brd-hov cr-pt">
+                        <img src="/assets/images/toy.jpg" class="img-res-w" alt="toy-image">
+                        <div class="pd-i-0625 ">
+                            <h3>Car white toy</h3>
+                            <h5>
+                                <span class="tx-lt clr-gray-500">₹450.85</span>
+                                <span class="pd-i-0625">₹300.50</span>
+                                <span class="clr-red-400">only</span>
+                            </h5>
+                            <p class="f-075">Christmas festive VW Beetle with blank negative copy space</p>
+                            <div class="pd-b-1 fx-row fx-jc-se fx-ai-center">
+                                <button class="bg-clr-yellow-300 pd-05 brd-sm"><i class="fas fa-shopping-cart"></i> Add
+                                    To Cart</button>
+                                <button class="bg-clr-gray-300 pd-05 brd-sm">Buy Now</button>
+                            </div>
+                        </div>
+                        <h3 class="top p-abs fx-row fx-jc-center fx-ai-center w-full h-full bg-trans clr-gray-50 z-top">
+                            Out of Stock
+                        </h3>
+                        <div class="p-abs bg-clr-gray-50 brd-round h-105 w-105 item-center top-rgt mg-05"><i
+                                class="far fa-heart clr-red-400 "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=cardStd.html"></script>
+            <h3 class="pd-b-1">Horizontal card</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-wrap fx-ai-center brd-sm">
+                    <div class="p-rel bg-clr-gray-50 h-15 w-26 brd-sm o-hide brd-hov cr-pt fx-row">
+                        <img class="img-res-wd" src="/assets/images/snoglobe2.jpg" alt="">
+                        <div class="pd-i-0625 fx-col fx-wrap fx-jc-se">
+                            <h3>Phantom rose Globe</h3>
+                            <h5>
+                                <span class="tx-lt clr-gray-500">₹450.85</span>
+                                <span class="pd-i-0625">₹300.50</span>
+                                <span class="clr-red-400">only</span>
+                            </h5>
+                            <p class="f-075">Christmas festive VW Beetle with blank negative copy space</p>
+                            <div class="pd-b-1 fx-row fx-jc-se fx-ai-center">
+                                <button class="bg-clr-yellow-300 pd-05 brd-sm"><i class="fas fa-shopping-cart"></i> Add
+                                    To Cart</button>
+                                <button class="bg-clr-gray-300 pd-05 brd-sm">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="p-abs bg-clr-gray-50 brd-round h-105 w-105 item-center top-lft mg-05"><i
+                                class="far fa-heart clr-red-400 "></i>
+                        </div>
+                    </div>
+                    <div class="p-rel bg-clr-gray-50 p-rel h-15 w-26 brd-sm o-hide brd-hov cr-pt fx-row">
+                        <img class="img-res-wd" src="/assets/images/snoglobe2.jpg" alt="">
+                        <div class="pd-i-0625 fx-col fx-wrap fx-jc-se">
+                            <h3>Phantom rose Globe</h3>
+                            <h5>
+                                <span class="tx-lt clr-gray-500">₹450.85</span>
+                                <span class="pd-i-0625">₹300.50</span>
+                                <span class="clr-red-400">only</span>
+                            </h5>
+                            <p class="f-075">Christmas festive VW Beetle with blank negative copy space</p>
+                            <div class="pd-b-1 fx-row fx-jc-se fx-ai-center">
+                                <button class="bg-clr-yellow-300 pd-05 brd-sm"><i class="fas fa-shopping-cart"></i> Add
+                                    To Cart</button>
+                                <button class="bg-clr-gray-300 pd-05 brd-sm">Buy Now</button>
+                            </div>
+                        </div>
+                        <h3 class="p-abs fx-row fx-jc-center fx-ai-center w-full h-full bg-trans clr-gray-50 z-top">Out
+                            of Stock
+                        </h3>
+                        <div class="p-abs bg-clr-gray-50 brd-round h-105 w-105 item-center top-lft mg-05"><i
+                                class="far fa-heart clr-red-400 "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=cardHor.html"></script>
+            <h3 class="pd-b-1">Card with no Image</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-wrap fx-ai-center brd-sm">
+                    <div class="p-rel bg-clr-gray-50 pd-0625 w-26 brd-sm o-hide brd-hov cr-pt fx-col fx-wrap fx-jc-se"">
+                        <h3>Phantom rose Globe</h3>
+                        <h5>
+                            <span class=" tx-lt clr-gray-500">₹450.85</span>
+                        <span class="pd-i-0625">₹300.50</span>
+                        <span class="clr-red-400">only</span>
+                        </h5>
+                        <p class="f-075">Christmas festive VW Beetle with blank negative copy space</p>
+                        <div class="pd-b-1 fx-row fx-jc-se fx-ai-center">
+                            <button class="bg-clr-yellow-300 pd-05 brd-sm"><i class="fas fa-shopping-cart"></i> Add
+                                To Cart</button>
+                            <button class="bg-clr-gray-300 pd-05 brd-sm">Buy Now</button>
+                        </div>
+                        <div class="p-abs bg-clr-gray-50 brd-round h-105 w-105 item-center top-rgt mg-05"><i
+                                class="far fa-heart clr-red-400 "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=cardNoImage.html">
+            </script>
+            <h3 class="pd-b-1">Card with no Image Overlay</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-row fx-jc-se fx-wrap fx-ai-center brd-sm">
+                    <div class="p-rel bg-clr-gray-50 pd-0625 w-26 brd-sm o-hide brd-hov cr-pt fx-col fx-wrap fx-jc-se">
+                        <div class=" p-rel">
+                            <h3 class="p-abs btm-lft pd-b-1 pd-i-05 brd-sm clr-gray-50">Phantom rose Globe</h3>
+                            <img src="/assets/images/snoglobe4.jpg" alt="" srcset="">
+                        </div>
+                        <h5>
+                            <span class=" tx-lt clr-gray-500">₹450.85</span>
+                            <span class="pd-i-0625">₹300.50</span>
+                            <span class="clr-red-400">only</span>
+                        </h5>
+                        <p class="f-075">Christmas festive VW Beetle with blank negative copy space</p>
+                        <div class="pd-b-1 fx-row fx-jc-se fx-ai-center">
+                            <button class="bg-clr-yellow-300 pd-05 brd-sm"><i class="fas fa-shopping-cart"></i> Add
+                                To Cart</button>
+                            <button class="bg-clr-gray-300 pd-05 brd-sm">Buy Now</button>
+                        </div>
+                        <div class="p-abs bg-clr-gray-50 brd-round h-105 w-105 item-center top-rgt mg-075"><i
+                                class="far fa-heart clr-red-400 "></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=cardImageText.html">
+            </script>
         </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
     </div>
 </body>
 
