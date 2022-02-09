@@ -8,6 +8,8 @@
     <script src="https://kit.fontawesome.com/0fde817728.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/pages/docs.css">
+    <link rel="stylesheet" href="/pages/components/utility/utility.css">
+    <link rel="stylesheet" href="/pages/components/toast/toast.css">
     <title>SnowflakeUI | Toast</title>
 </head>
 
@@ -60,9 +62,56 @@
                 <li><a href="/pages/components/toast/toast.html"><i class="fas fa-flag"></i>Toast</a></li>
             </ul>
         </div>
-        <div class="component-contents">
-            <h1 class="doc-title">&lt;TITLE-PLACE-HOLDER&gt;</h1>
-            <p class="doc-desc-primiray">&lt;TITLE DESCRIPTION&gt;</p>
+        <div class="toast-component-contents">
+            <h2 class="pd-b-075">Toast Component</h2>
+            <hr>
+            <p>Push notifications to your visitors with a toast, a lightweight and easily customizable alert message.
+                Generally a Toast message stays for 2-3sec and goes away
+            </p>
+            <h3 class="pd-b-1">Standard Toast</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-col fx-jc-center fx-ai-center brd-sm fx-wrap">
+                    <div
+                        class="fx-row fx-ai-center fx-jc-sb w-three-fifth bg-clr-green-100 clr-green-600 pd-05 brd-sm m-w-40 mg-b-1">
+                        <div class="fx-row fx-ai-center">
+                            <i class="fa-solid fa-check pd-i-05"></i>
+                            <p>Successfully added to the cart</p>
+                        </div>
+                        <i class="fa-regular fa-circle-xmark cr-pt"></i>
+                    </div>
+                    <div
+                        class="fx-row fx-ai-center fx-jc-sb w-three-fifth bg-clr-red-100 clr-red-600 pd-05 brd-sm m-w-40 mg-b-1">
+                        <div class="fx-row fx-ai-center">
+                            <i class="fa-solid fa-circle-exclamation pd-i-05"></i>
+                            <p>An error has occurred</p>
+                        </div>
+                        <i class="fa-regular fa-circle-xmark cr-pt"></i>
+                    </div>
+
+                    <div
+                        class="fx-row fx-ai-center fx-jc-sb w-three-fifth bg-clr-yellow-100 clr-yellow-600 pd-05 brd-sm m-w-40 mg-b-1">
+                        <div class="fx-row fx-ai-center">
+                            <i class="fas fa-exclamation-triangle pd-i-05"></i>
+                            <p>Kindly try again later</p>
+                        </div>
+                        <i class="fa-regular fa-circle-xmark cr-pt"></i>
+                    </div>
+
+                    <div class="brd-sm o-hide brd-hov m-w-20 mg-b-1">
+                        <div class="fx-row fx-ai-center fx-jc-sb bg-clr-gray-300 pd-05">
+                            <p>Custom Toast</p>
+                            <i class="fa-regular fa-circle-xmark cr-pt"></i>
+                        </div>
+                        <p class="pd-05 bg-clr-gray-50">
+                            custom message for custom toast
+                            <br>
+                            Lorem, ipsum dolor sit amet
+                            consectetur adipisicing elit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=toast.html"></script>
         </div>
     </div>
 </body>
