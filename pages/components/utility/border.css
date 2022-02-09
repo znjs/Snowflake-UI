@@ -24,3 +24,7 @@
 .cr-pt {
     cursor: pointer;
 }
+
+.brd-simple {
+    border: 1px solid black;
+}
