@@ -672,3 +672,9 @@
 .bg-trans {
     background-color: #6b7280bf;
 }
+
+.bg-star:hover {
+    transition: 0.6s;
+    /* background-color: #ffff00a3; */
+    background-color: hsla(0, 0%, 50%, 0.144);
+}
