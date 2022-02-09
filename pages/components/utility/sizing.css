@@ -433,3 +433,53 @@
 .w-fit {
     width: fit-content;
 }
+
+/* *MAX WIDTHS */
+
+.m-w-full {
+    max-width: 100%;
+}
+
+.m-h-full {
+    max-height: 100%;
+}
+
+.m-w-10 {
+    max-width: 10rem;
+}
+
+.m-h-10 {
+    max-height: 10rem;
+}
+
+.m-w-20 {
+    max-width: 20rem;
+}
+
+.m-h-20 {
+    max-height: 20rem;
+}
+
+.m-w-30 {
+    max-width: 30rem;
+}
+
+.m-h-30 {
+    max-height: 30rem;
+}
+
+.m-w-40 {
+    max-width: 40rem;
+}
+
+.m-h-40 {
+    max-height: 40rem;
+}
+
+.m-w-50 {
+    max-width: 50rem;
+}
+
+.m-h-50 {
+    max-height: 50rem;
+}
