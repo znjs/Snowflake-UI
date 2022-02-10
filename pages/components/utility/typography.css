@@ -133,3 +133,21 @@
 .fv-sc {
     font-variant: small-caps;
 }
+
+/* ?FONT FAMILY */
+
+.ff-nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.ff-poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.ff-merriw {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.ff-inter {
+    font-family: 'Inter', sans-serif;
+}
