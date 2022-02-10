@@ -8,6 +8,8 @@
     <script src="https://kit.fontawesome.com/0fde817728.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/pages/docs.css">
+    <link rel="stylesheet" href="/pages/components/utility/utility.css">
+    <link rel="stylesheet" href="/pages/components/modal/modal.css">
     <title>SnowflakeUI | Modal</title>
 </head>
 
@@ -64,9 +66,31 @@
                 <li><a href="/pages/components/utility/utility.html"><i class="fas fa-tools"></i>Utility</a></li>
             </ul>
         </div>
-        <div class="component-contents">
-            <h1 class="doc-title">&lt;TITLE-PLACE-HOLDER&gt;</h1>
-            <p class="doc-desc-primiray">&lt;TITLE DESCRIPTION&gt;</p>
+        <div class="modal-component-contents">
+            <h2 class="pd-b-075">Modal Component</h2>
+            <hr>
+            <p>
+                The modal is composed of three distinct zones: A header, the body, and a footer. Components can occupy
+                the full width of the modal.
+            </p>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="p-rel pd-1 fx-col fx-jc-center fx-ai-center brd-sm fx-wrap">
+                    <div class="h-10 w-24 brd-sm o-hide">
+                        <div class="p-rel fx-row fx-jc-sb fx-ai-center bg-clr-gray-500 pd-05 clr-gray-50">
+                            <h4>This is a Modal head</h4>
+                            <i class="fas fa-times cr-pt"></i>
+                        </div>
+                        <div class="bg-clr-gray-400 pd-05">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, ex. Obcaecati harum</p>
+                            <div class="fx-row fx-jc-se fx-ai-center pd-b-05">
+                                <button class="pd-05 brd-sm bg-clr-gray-500 clr-gray-50">Cancel</button>
+                                <button class="pd-05 brd-sm ">Delete</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=toast.html"></script>
         </div>
     </div>
 </body>
