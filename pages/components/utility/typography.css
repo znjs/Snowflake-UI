@@ -129,3 +129,7 @@
 .tx-lt {
     text-decoration: line-through;
 }
+
+.fv-sc {
+    font-variant: small-caps;
+}
