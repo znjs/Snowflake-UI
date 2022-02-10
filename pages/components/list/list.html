@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/pages/docs.css">
     <link rel="stylesheet" href="/pages/components/utility/utility.css">
-    <link rel="stylesheet" href="/pages/components/alert/alert.css">
-    <title>SnowflakeUI | Alert</title>
+    <link rel="stylesheet" href="/pages/components/list/list.css">
+    <title>SnowflakeUI | Toast</title>
 </head>
 
 <body>
@@ -57,7 +57,6 @@
                 <li><a href="/pages/components/grid/grid.html"><i class="fas fa-border-none"></i>Grid</a></li>
                 <li><a href="/pages/components/image/image.html"><i class="fas fa-images"></i>Image</a></li>
                 <li><a href="/pages/components/input/input.html"><i class="fas fa-keyboard"></i>Input</a></li>
-                <li><a href="/pages/components/list/list.html"><i class="fas fa-list"></i>List</a></li>
                 <li><a href="/pages/components/modal/modal.html"><i class="fas fa-vr-cardboard"></i>Modal</a></li>
                 <li><a href="/pages/components/navigation/navigation.html"><i
                             class="fas far fa-compass"></i>Navigation</a></li>
@@ -66,26 +65,38 @@
                 <li><a href="/pages/components/utility/utility.html"><i class="fas fa-tools"></i>Utility</a></li>
             </ul>
         </div>
-        <div class="alert-contents">
-            <h2 class="mg-b-075">Alert</h2>
+        <div class="list-component-contents">
+            <h2 class="pd-b-075">List Component</h2>
             <hr>
-            <p>Alert messaging is machine-to-person communication that is important or time sensitive. An alert may be a
-                calendar reminder or a notification of a new message.</p>
+            <p>The List component allows you to display a list of pages or links.</p>
+            <h3 class="pd-b-1">Spaced list</h3>
             <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
-                <div class="pd-075 bg-clr-red-200 mg-075 brd-sm">
-                    <i class="fas fa-exclamation-circle clr-red-600"></i> This is an alert message
-                </div>
-                <div class="pd-075 bg-clr-yellow-200 mg-075 brd-sm">
-                    <i class="fas fa-exclamation-triangle clr-yellow-800"></i> This is an warning message
-                </div>
-                <div class="pd-075 bg-clr-green-200 mg-075 brd-sm">
-                    <i class="fas fa-check-circle clr-green-600"></i> This is an success message
-                </div>
-                <div class="pd-075 bg-clr-blue-200 mg-075 brd-sm">
-                    <i class="fas fa-info-circle clr-blue-600"></i> This is an info message
+                <div class="pd-1 fx-col fx-jc-center fx-ai-center brd-sm fx-wrap">
+                    <ul class="fx-row fx-jc-se fx-ai-center bg-clr-gray-50 brd-hov ">
+                        <li class="pd-05 brd-simple"><a href="#">Item 1</a></li>
+                        <li class="pd-05 brd-simple"><a href="#">Item 2</a></li>
+                        <li class="pd-05 brd-simple"><a href="#">Item 3</a></li>
+                        <li class="pd-05 brd-simple"><a href="#">Item 4</a></li>
+                        <li class="pd-05 brd-simple"><a href="#">Item 5</a></li>
+                    </ul>
                 </div>
             </div>
-            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=alert.html"></script>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=listHorizontal.html">
+            </script>
+            <h3 class="pd-b-05">Stacked list</h3>
+            <div class="bg-clr-gray-100 brd-sm mg-b-1 o-hide bx-shwd-blk">
+                <div class="pd-1 fx-col fx-jc-center fx-ai-center brd-sm fx-wrap">
+                    <ul class="fx-col w-10 fx-ai-se fx-jc-center bg-clr-gray-50 brd-hov ">
+                        <li class="w-full pd-05 brd-simple"><a href="#">Item 1</a></li>
+                        <li class="w-full pd-05 brd-simple"><a href="#">Item 2</a></li>
+                        <li class="w-full pd-05 brd-simple"><a href="#">Item 3</a></li>
+                        <li class="w-full pd-05 brd-simple"><a href="#">Item 4</a></li>
+                        <li class="w-full pd-05 brd-simple"><a href="#">Item 5</a></li>
+                    </ul>
+                </div>
+            </div>
+            <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=listVertical.html">
+            </script>
         </div>
     </div>
 </body>
