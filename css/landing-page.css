@@ -125,10 +125,9 @@
 
 .snowflake-hero {
     margin-top: 7rem;
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: repeat(2, 1fr);
-    place-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .snowflake-hero>.hero-content>.title {
@@ -160,7 +159,7 @@
     font-size: larger;
     padding: 0.5rem;
     border-radius: 1rem;
-    background-color: #538fda;
+    background-color: #016aed;
     box-shadow: 0 0 1rem black;
 }
 

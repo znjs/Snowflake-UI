@@ -20,8 +20,14 @@
     padding-left: 1rem;
 }
 
-nav>div>img {
+nav>div>img,
+nav>div>a {
     height: 3rem;
+    width: 3rem;
+}
+
+.nav-links>ul>li>a>i:hover {
+    color: #3a3a3a;
 }
 
 .snowflake-nav .nav-links ul {
@@ -41,6 +47,22 @@ nav>div>img {
 }
 
 .snowflake-nav .nav-links ul li i {
-
     font-size: 2rem;
+}
+
+/* ?MEDIA QUERIES */
+
+@media only screen and (max-width: 666px) {
+    .snowflake-nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .snowflake-nav .nav-links ul li i {
+        font-size: clamp(1rem, 1rem + 3vw, 2rem);
+    }
+
+    .snowflake-nav .nav-links ul li {
+        margin-inline: 5vw;
+    }
 }

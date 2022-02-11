@@ -2,11 +2,16 @@
 @import url("/css/nav.css");
 
 body {
-    background-color: #7db9e8;
+    /* background-color: #7db9e8; */
+    /* background-color: #e5e7eb; */
+    /* background: linear-gradient(#7db9e8 0%, #e5e7eb 10%, white 100%); */
+    background-color: #bdcfdf;
+
 }
 
 nav {
-    background: linear-gradient(#1e5799 0%, #7db9e8 100%);
+    background: linear-gradient(#1e5799 0%, #bdcfdf 100%);
+    /* background: linear-gradient(#1e5799 0%, #7db9e8 100%); */
 }
 
 /* ?CODE PREVIEW CLASSES */
@@ -31,11 +36,8 @@ nav {
 /* ?SIDE NAV */
 
 .component-doc {
-    margin: 1rem 2rem 0 0;
-    min-width: 80%;
-    display: grid;
-    grid-auto-flow: row;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .component-doc .side-nav {
@@ -99,6 +101,7 @@ hr {
 .component-contents {
     padding-block: 2rem;
     overflow: auto;
+    width: 70%;
 }
 
 .component-doc>.component-contents>h2 {
@@ -108,3 +111,14 @@ hr {
 /* .component-doc>.component-contents>.code-snippet {
     margin-block: 1rem;
 } */
+
+@media only screen and (max-width: 1080px) {
+    .side-nav {
+        display: none;
+    }
+
+    .component-contents {
+        width: 100%;
+        padding-inline: 2rem;
+    }
+}
