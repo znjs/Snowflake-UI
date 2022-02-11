@@ -76,6 +76,10 @@
     display: block;
 }
 
+.d-none {
+    display: none;
+}
+
 .d-i-block {
     display: inline-block;
 }

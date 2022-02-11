@@ -42,11 +42,15 @@ nav {
     left: 0;
     bottom: 0;
     height: calc(100vh - 6rem);
-    padding-top: 1rem;
+    padding-top: 2rem;
     padding-left: 3rem;
     overflow: auto;
     justify-self: flex-start;
     padding-right: 1rem;
+}
+
+.component-doc .side-nav::-webkit-scrollbar-track {
+    margin-top: 2rem;
 }
 
 .component-doc>.side-nav>h2 {
@@ -95,7 +99,6 @@ hr {
 
 /* ?MAIN CONTENT */
 .component-contents {
-    padding-block: 2rem;
     overflow: auto;
     width: 70%;
 }
@@ -107,6 +110,10 @@ hr {
 @media only screen and (max-width: 1080px) {
     .side-nav {
         display: none;
+    }
+
+    .pagination.d-none {
+        display: flex;
     }
 
     .component-contents {
