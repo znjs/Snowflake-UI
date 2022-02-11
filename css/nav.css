@@ -12,8 +12,6 @@
     padding: 1rem;
     display: flex;
     align-items: center;
-    /* cursor: pointer; */
-    /* background-color: blueviolet; */
 }
 
 .snowflake-nav>.logo-container>h2 {

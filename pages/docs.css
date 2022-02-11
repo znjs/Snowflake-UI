@@ -2,16 +2,12 @@
 @import url("/css/nav.css");
 
 body {
-    /* background-color: #7db9e8; */
-    /* background-color: #e5e7eb; */
-    /* background: linear-gradient(#7db9e8 0%, #e5e7eb 10%, white 100%); */
     background-color: #bdcfdf;
 
 }
 
 nav {
     background: linear-gradient(#1e5799 0%, #bdcfdf 100%);
-    /* background: linear-gradient(#1e5799 0%, #7db9e8 100%); */
 }
 
 /* ?CODE PREVIEW CLASSES */
@@ -107,10 +103,6 @@ hr {
 .component-doc>.component-contents>h2 {
     margin-block: 1.5rem;
 }
-
-/* .component-doc>.component-contents>.code-snippet {
-    margin-block: 1rem;
-} */
 
 @media only screen and (max-width: 1080px) {
     .side-nav {
