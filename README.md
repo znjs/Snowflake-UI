@@ -7,10 +7,10 @@ Make your web development as rapid as possible using snowflake UI
 
 </div>
 
-<div height="60" style="diplay:flex;" align="center">
-<img src="/assets/images/undraw_frozen_figure_omho.svg"/>
-<img src="/assets/images/undraw_snow_fun_re_plbr.svg"/>
-<img src="/assets/images/undraw_frozen_figure_omho.svg"/>
+<div style="diplay:flex;" align="center">
+<img height="60" src="/assets/images/undraw_frozen_figure_omho.svg"/>
+<img height="60" src="/assets/images/undraw_snow_fun_re_plbr.svg"/>
+<img height="60" src="/assets/images/undraw_frozen_figure_omho.svg"/>
 </div>
 
 ## **Table of contents**
