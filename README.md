@@ -82,6 +82,19 @@ Just copy-paste the stylesheet `<link>`'s into your `<head>` to load our CSS.
 
 ### **Screenshot**
 
+![snowflake-landing-page](https://user-images.githubusercontent.com/60209418/153670839-846935f8-8c90-4c16-8466-31e1a118c67d.gif)
+
+![docs-home-page](https://user-images.githubusercontent.com/60209418/153670969-6313f20c-9e4d-4861-95e7-f41929b1f746.png)
+
+![image](https://user-images.githubusercontent.com/60209418/153671057-fb160991-ccdb-4b34-834b-ad7acfc5293b.png)
+
+![image](https://user-images.githubusercontent.com/60209418/153671084-2d1e4ceb-e119-4c73-ad02-3462fde61456.png)
+
+![image](https://user-images.githubusercontent.com/60209418/153671125-22ccb5aa-87d6-449c-a54a-173c25335e62.png)
+
+![image](https://user-images.githubusercontent.com/60209418/153671224-0eda6367-0aeb-4714-aca9-6b688f93cef1.png)
+
+
 <br />
 
 ## **My process**
