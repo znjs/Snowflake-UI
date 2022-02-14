@@ -1,3 +1,7 @@
 input:invalid {
     background-color: #ff0000;
 }
+
+input {
+    outline: none;
+}
