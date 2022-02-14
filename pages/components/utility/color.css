@@ -339,6 +339,10 @@
     background-color: #f9fafb;
 }
 
+.bg-clr-gray-50-o-03 {
+    background-color: #f9fafb4d;
+}
+
 .bg-clr-gray-100 {
     background-color: #f3f4f6;
 }
@@ -677,4 +681,93 @@
     transition: 0.6s;
     /* background-color: #ffff00a3; */
     background-color: hsla(0, 0%, 50%, 0.144);
+}
+
+/* ?OPACITY */
+
+.op-0 {
+    opacity: 0;
+}
+
+.op-01 {
+    opacity: 0.1;
+}
+
+
+.op-015 {
+    opacity: 0.15;
+}
+
+.op-02 {
+    opacity: 0.2;
+}
+
+
+.op-025 {
+    opacity: 0.25;
+}
+
+.op-03 {
+    opacity: 0.3;
+}
+
+
+.op-035 {
+    opacity: 0.35;
+}
+
+.op-04 {
+    opacity: 0.4;
+}
+
+
+.op-045 {
+    opacity: 0.45;
+}
+
+
+.op-05 {
+    opacity: 0.5;
+}
+
+
+.op-055 {
+    opacity: 0.55;
+}
+
+
+.op-06 {
+    opacity: 0.6;
+}
+
+
+.op-065 {
+    opacity: 0.65;
+}
+
+.op-07 {
+    opacity: 0.7;
+}
+
+
+.op-075 {
+    opacity: 0.75;
+}
+
+.op-08 {
+    opacity: 0.8;
+}
+
+
+.op-085 {
+    opacity: 0.85;
+}
+
+.op-09 {
+    opacity: 0.9;
+}
+
+
+.op-095 {
+    opacity: 0.95;
 }

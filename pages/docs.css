@@ -27,6 +27,12 @@ nav {
     max-height: 15rem;
     overflow: auto;
     font-size: 1rem;
+    border-radius: 1rem;
+}
+
+div.gist .gist-file {
+    margin: unset;
+    border: none;
 }
 
 /* ?SIDE NAV */
@@ -101,6 +107,7 @@ hr {
 .component-contents {
     overflow: auto;
     width: 70%;
+    padding-inline: 1.25rem;
 }
 
 .component-doc>.component-contents>h2 {
