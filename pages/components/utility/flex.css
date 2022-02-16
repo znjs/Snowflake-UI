@@ -72,6 +72,42 @@
     flex-wrap: wrap-reverse;
 }
 
+.fx-wrap-np {
+    flex-wrap: nowrap;
+}
+
+.fx-jc-fs {
+    justify-content: flex-start;
+}
+
+.fx-jc-fe {
+    justify-content: flex-end;
+}
+
+.fx-ai-fs {
+    align-items: flex-start;
+}
+
+.fx-ai-fe {
+    align-items: flex-end;
+}
+
+.fx-ai-bl {
+    align-items: baseline;
+}
+
+.fx-ai-st {
+    align-items: stretch;
+}
+
+.fx-grow {
+    flex-grow: 1;
+}
+
+.fx-as-fe {
+    align-self: flex-end;
+}
+
 .d-block {
     display: block;
 }
