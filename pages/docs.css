@@ -1,13 +1,22 @@
 @import url("/css/reset.css");
 @import url("/css/nav.css");
 
+:root {
+    --clr-white: #ffffff;
+    --clr-snowblue: #1e5799;
+    --clr-offblue: #bdcfdf;
+    --clr-black: #000000;
+    --clr-gray: #808080;
+    --clr-lightgray: #d3d3d3;
+}
+
 body {
-    background-color: #bdcfdf;
+    background-color: white;
 
 }
 
 nav {
-    background: linear-gradient(#1e5799 0%, #bdcfdf 100%);
+    background: linear-gradient(var(--clr-snowblue) 0%, var(--clr-offblue) 50%, var(--clr-white) 100%);
 }
 
 /* ?CODE PREVIEW CLASSES */
@@ -27,6 +36,7 @@ nav {
     max-height: 15rem;
     overflow: auto;
     font-size: 1rem;
+    border: 1px solid var(--clr-black);
     border-radius: 1rem;
 }
 
@@ -66,7 +76,7 @@ div.gist .gist-file {
 
 hr {
     margin: 0.5rem 0;
-    color: grey;
+    color: var(--clr-gray);
 }
 
 .component-doc>.side-nav>ul>li {
@@ -85,7 +95,7 @@ hr {
 }
 
 ::-webkit-scrollbar-track {
-    background: lightgrey;
+    background: var(--clr-lightgray);
     border-radius: 1rem;
     /* margin-block: 0.5rem; */
 }
@@ -93,14 +103,14 @@ hr {
 
 ::-webkit-scrollbar-thumb {
     background: hsl(0, 0%, 50%, 0.8);
-    border: 0.15rem solid lightgrey;
+    border: 0.15rem solid var(--clr-lightgray);
     cursor: pointer;
     border-radius: 1rem;
 
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: grey;
+    background-color: var(--clr-gray);
 }
 
 /* ?MAIN CONTENT */
