@@ -83,11 +83,21 @@ hr {
     display: flex;
     align-items: center;
     margin: 1.5rem 0;
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+}
+
+.component-doc>.side-nav>ul>li:hover {
+    background-color: var(--clr-lightgray);
 }
 
 .component-doc>.side-nav>ul>li>a>i {
     font-size: large;
     margin-right: 0.75rem;
+}
+
+.active-page {
+    background-color: var(--clr-lightgray);
 }
 
 ::-webkit-scrollbar {

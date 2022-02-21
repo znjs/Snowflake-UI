@@ -14,10 +14,14 @@
 </head>
 
 <body>
-    <nav class="snowflake-nav">
-        <div class="logo-container" href="/">
-            <img src="/assets/svg/snowflake.svg" alt="logo" loading="eager">
-            <h2>Snowflake UI</h2>
+    <nav class="snowflake-nav w-full fx fx-wrap fx-jc-sb fx-ai-center">
+        <div class="logo-container fx fx-ai-center">
+            <a class="logo" href="/">
+                <img src="/assets/svg/snowflake.svg" alt="logo" loading="eager">
+            </a>
+            <a href="/" class="mg-i-025">
+                <h2>Snowflake UI</h2>
+            </a>
         </div>
         <div class="nav-links">
             <ul>
@@ -37,7 +41,6 @@
 
             </ul>
         </div>
-
     </nav>
     <div class="component-doc">
         <div class="side-nav">
@@ -55,7 +58,8 @@
                 <li><a href="/pages/components/button/button.html"><i class="fas fa-mouse"></i>Button</a></li>
                 <li><a href="/pages/components/card/card.html"><i class="far fa-address-card"></i>Card</a></li>
                 <li><a href="/pages/components/grid/grid.html"><i class="fas fa-border-none"></i>Grid</a></li>
-                <li><a href="/pages/components/image/image.html"><i class="fas fa-images"></i>Image</a></li>
+                <li class="active-page"><a href="/pages/components/image/image.html"><i
+                            class="fas fa-images"></i>Image</a></li>
                 <li><a href="/pages/components/input/input.html"><i class="fas fa-keyboard"></i>Input</a></li>
                 <li><a href="/pages/components/list/list.html"><i class="fas fa-list"></i>List</a></li>
                 <li><a href="/pages/components/modal/modal.html"><i class="fas fa-vr-cardboard"></i>Modal</a></li>
@@ -99,7 +103,7 @@
             </div>
             <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=imageRound.html">
             </script>
-            <div class="pagination w-full fx-row fx-jc-sb">
+            <div class="pagination w-full fx-row fx-jc-sb d-none">
                 <a href="/pages/components/grid/grid.html"> &lt;&nbsp;Grid</a>
                 <a href="/pages/components/input/input.html">Input &nbsp; &gt;</a>
             </div>

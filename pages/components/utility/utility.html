@@ -14,10 +14,14 @@
 </head>
 
 <body>
-    <nav class="snowflake-nav">
-        <div class="logo-container" href="/">
-            <img src="/assets/svg/snowflake.svg" alt="logo" loading="eager">
-            <h2>Snowflake UI</h2>
+    <nav class="snowflake-nav w-full fx fx-wrap fx-jc-sb fx-ai-center">
+        <div class="logo-container fx fx-ai-center">
+            <a class="logo" href="/">
+                <img src="/assets/svg/snowflake.svg" alt="logo" loading="eager">
+            </a>
+            <a href="/" class="mg-i-025">
+                <h2>Snowflake UI</h2>
+            </a>
         </div>
         <div class="nav-links">
             <ul>
@@ -37,7 +41,6 @@
 
             </ul>
         </div>
-
     </nav>
     <div class="component-doc">
         <div class="side-nav">
@@ -63,7 +66,8 @@
                             class="fas far fa-compass"></i>Navigation</a></li>
                 <li><a href="/pages/components/rating/rating.html"><i class="fas fa-star"></i>Rating</a></li>
                 <li><a href="/pages/components/toast/toast.html"><i class="fas fa-flag"></i>Toast</a></li>
-                <li><a href="/pages/components/utility/utility.html"><i class="fas fa-tools"></i>Utility</a></li>
+                <li class="active-page"><a href="/pages/components/utility/utility.html"><i
+                            class="fas fa-tools"></i>Utility</a></li>
             </ul>
         </div>
         <div class="utility-componenet-contents">
@@ -141,7 +145,9 @@
             </div>
             <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=fontSize.html">
             </script>
-
+            <div class="pagination w-full fx-row fx-jc-sb d-none">
+                <a href="/pages/components/toast/toast.html"> &lt;&nbsp;Toast</a>
+            </div>
         </div>
     </div>
 </body>

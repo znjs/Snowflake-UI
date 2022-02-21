@@ -14,10 +14,14 @@
 </head>
 
 <body>
-    <nav class="snowflake-nav">
-        <div class="logo-container" href="/">
-            <img src="/assets/svg/snowflake.svg" alt="logo" loading="eager">
-            <h2>Snowflake UI</h2>
+    <nav class="snowflake-nav w-full fx fx-wrap fx-jc-sb fx-ai-center">
+        <div class="logo-container fx fx-ai-center">
+            <a class="logo" href="/">
+                <img src="/assets/svg/snowflake.svg" alt="logo" loading="eager">
+            </a>
+            <a href="/" class="mg-i-025">
+                <h2>Snowflake UI</h2>
+            </a>
         </div>
         <div class="nav-links">
             <ul>
@@ -37,7 +41,6 @@
 
             </ul>
         </div>
-
     </nav>
     <div class="component-doc">
         <div class="side-nav">
@@ -62,7 +65,8 @@
                 <li><a href="/pages/components/navigation/navigation.html"><i
                             class="fas far fa-compass"></i>Navigation</a></li>
                 <li><a href="/pages/components/rating/rating.html"><i class="fas fa-star"></i>Rating</a></li>
-                <li><a href="/pages/components/toast/toast.html"><i class="fas fa-flag"></i>Toast</a></li>
+                <li class="active-page"><a href="/pages/components/toast/toast.html"><i
+                            class="fas fa-flag"></i>Toast</a></li>
                 <li><a href="/pages/components/utility/utility.html"><i class="fas fa-tools"></i>Utility</a></li>
             </ul>
         </div>
@@ -116,8 +120,9 @@
                 </div>
             </div>
             <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=toast.html"></script>
-            <div class="pagination w-full fx-row fx-jc-sb">
+            <div class="pagination w-full fx-row fx-jc-sb d-none">
                 <a href="/pages/components/rating/rating.html"> &lt;&nbsp;Rating</a>
+                <a href="/pages/components/utility/utility.html"> &lt;&nbsp;Utility</a>
             </div>
         </div>
     </div>

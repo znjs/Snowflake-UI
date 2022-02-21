@@ -1,17 +1,15 @@
-.snowflake-nav {
+/* .snowflake-nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-}
+} */
 
 
 .snowflake-nav .logo-container {
     height: 5rem;
     padding: 1rem;
-    display: flex;
-    align-items: center;
 }
 
 .snowflake-nav>.logo-container>h2 {
@@ -19,9 +17,9 @@
 }
 
 nav>div>img,
-nav>div>a {
-    height: 3rem;
-    width: 3rem;
+nav>div>a.logo {
+    height: 2.5rem;
+    width: 2.5rem;
 }
 
 .nav-links>ul>li>a>i:hover {

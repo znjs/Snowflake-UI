@@ -13,12 +13,14 @@
 </head>
 
 <body>
-    <nav class="snowflake-nav">
-        <div class="logo-container">
-            <a href="/">
+    <nav class="snowflake-nav w-full fx fx-wrap fx-jc-sb fx-ai-center">
+        <div class="logo-container fx fx-ai-center">
+            <a class="logo" href="/">
                 <img src="/assets/svg/snowflake.svg" alt="logo" loading="eager">
             </a>
-            <h2>Snowflake UI</h2>
+            <a href="/" class="mg-i-025">
+                <h2>Snowflake UI</h2>
+            </a>
         </div>
         <div class="nav-links">
             <ul>
@@ -38,13 +40,12 @@
 
             </ul>
         </div>
-
     </nav>
     <div class="component-doc">
         <div class="side-nav">
             <h2>Getting Started</h2>
             <ul>
-                <li><a href="/pages/docs.html">Introduction</a></li>
+                <li class="active-page"><a href="/pages/docs.html">Introduction</a></li>
             </ul>
             <hr>
             <h2>Components</h2>
@@ -81,7 +82,7 @@
             <div class="code-snippet">
                 <script src="https://gist.github.com/znjs/b99d38089fccc9538f7b28a2894420ff.js?file=import.css"></script>
             </div>
-            <div class="w-full  pagination">
+            <div class="w-full d-none  pagination">
                 <a href="/pages/components/alert/alert.html">Alert &nbsp; &gt;</a>
             </div>
         </div>
