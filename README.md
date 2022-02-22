@@ -67,7 +67,7 @@ Just copy-paste the stylesheet `<link>`'s into your `<head>` to load our CSS.
 
 - [Alert](https://snowflakeui.netlify.app/pages/components/alert/alert.html)
 - [Avatar](https://snowflakeui.netlify.app/pages/components/avatar/avatar.html)
-- [Badge](https://boostmat-ui.netlify.app/components/badge/badge.html)
+- [Badge](https://snowflakeui.netlify.app/components/badge/badge.html)
 - [Button](https://snowflakeui.netlify.app/pages/components/badge/badge.html)
 - [Card](https://snowflakeui.netlify.app/pages/components/card/card.html)
 - [Image](https://snowflakeui.netlify.app/pages/components/image/image.html)
