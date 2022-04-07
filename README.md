@@ -67,7 +67,7 @@ Just copy-paste the stylesheet `<link>`'s into your `<head>` to load our CSS.
 
 - [Alert](https://snowflakeui.netlify.app/pages/components/alert/alert.html)
 - [Avatar](https://snowflakeui.netlify.app/pages/components/avatar/avatar.html)
-- [Badge](https://boostmat-ui.netlify.app/components/badge/badge.html)
+- [Badge](https://snowflakeui.netlify.app/components/badge/badge.html)
 - [Button](https://snowflakeui.netlify.app/pages/components/badge/badge.html)
 - [Card](https://snowflakeui.netlify.app/pages/components/card/card.html)
 - [Image](https://snowflakeui.netlify.app/pages/components/image/image.html)
@@ -82,9 +82,10 @@ Just copy-paste the stylesheet `<link>`'s into your `<head>` to load our CSS.
 
 ### **Screenshot**
 
-![snowflake-landing-page](https://user-images.githubusercontent.com/60209418/153670839-846935f8-8c90-4c16-8466-31e1a118c67d.gif)
 
-![docs-home-page](https://user-images.githubusercontent.com/60209418/153670969-6313f20c-9e4d-4861-95e7-f41929b1f746.png)
+![Landing-page](https://user-images.githubusercontent.com/60209418/162261070-16208d67-7208-4d75-9327-35c80609afd2.png)
+
+![docs-home-page](https://user-images.githubusercontent.com/60209418/162261176-08c82ef7-6f5f-463b-a9cf-e72fc52c86b5.png)
 
 ![image](https://user-images.githubusercontent.com/60209418/153671057-fb160991-ccdb-4b34-834b-ad7acfc5293b.png)
 
