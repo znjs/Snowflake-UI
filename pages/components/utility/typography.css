@@ -173,3 +173,7 @@
 .ta-justify {
     text-align: justify;
 }
+
+.select-none {
+    user-select: none;
+}
