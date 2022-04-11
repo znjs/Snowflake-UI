@@ -7,6 +7,10 @@
     border-radius: 50%;
 }
 
+.o-none {
+    outline: none;
+}
+
 /* ?BOXSHADOW */
 
 .bx-shwd-blk {
